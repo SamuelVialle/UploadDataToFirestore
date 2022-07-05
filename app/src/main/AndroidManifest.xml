@@ -26,7 +26,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PopupRecWindow"/>
+        <activity android:name=".PopupRecWindow"
+            android:theme="@style/Theme.UploadDataToFirestore.PopTheme"
+            />
     </application>
 
 </manifest>
